@@ -1,0 +1,14 @@
+/* header style */
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+header a{
+    text-decoration: none;
+    margin-left: 35px;
+}
+header i{
+    margin: 15px;
+}
+/* header end  */
