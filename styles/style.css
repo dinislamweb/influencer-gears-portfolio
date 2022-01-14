@@ -62,3 +62,21 @@ hr{
     align-items: center;
     margin-top: 20px;
 }
+/* another part styles  */
+.photos-add{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+span{
+    margin-left: 10px;
+    color: gray;
+}
+.fa-star.filled{
+    color: #ffc014;
+}
+.fa-star.half-filled{
+    color: #aeaeae;
+}
+.details{
+    color: gray;
+}
