@@ -1,8 +1,15 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* header style */
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f1ff;
+}
 header{
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    align-items: center;
 }
 header a{
     text-decoration: none;
@@ -12,3 +19,18 @@ header i{
     margin: 15px;
 }
 /* header end  */
+
+/* main part one style */
+.container{
+    background-color: #ffffff;
+    padding: 30px;
+}
+.flex-part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.image-file img{
+    width: 300px;
+    height: 260px;
+    background-image: url(images/vector.jpg);
+}
