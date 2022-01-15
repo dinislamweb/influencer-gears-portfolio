@@ -1,6 +1,10 @@
 /* fonts */
+*{
+    box-sizing: border-box;
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* header style */
+
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff
@@ -72,9 +76,9 @@ hr{
   }  
   .photos{
       border: 1px solid gray;
-      padding: 20px;
+      padding: 50px;
       margin-bottom: 20px;
-      margin-right: 20px;
+      margin-left: 20px;
       border-radius: 5px;
   }
 span{
@@ -103,6 +107,7 @@ span{
 .gear-details{
     margin-left: 70px;
 }
+
 .last-part{
     text-align: center;
     background-color: rgb(5, 5, 67);
@@ -111,3 +116,4 @@ span{
 .logo-item i{
    margin: 7px;
 }
+    
