@@ -75,6 +75,7 @@ hr{
       padding: 20px;
       margin-bottom: 20px;
       margin-right: 20px;
+      border-radius: 5px;
   }
 span{
     margin-left: 10px;
@@ -88,4 +89,17 @@ span{
 }
 .details{
     color: gray;
+}
+.button-item{
+    text-align: right;
+
+}
+/* gear styles */
+.gear-info{
+    display: flex;
+    padding: 30px;
+    align-items: center;
+}
+.gear-details{
+    margin-left: 70px;
 }
