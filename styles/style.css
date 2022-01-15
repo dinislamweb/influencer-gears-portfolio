@@ -117,3 +117,22 @@ span{
    margin: 7px;
 }
     
+/* Media query styles */
+body {
+    width: 100%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+
+    }
+  }
+  @media only screen and (min-width: 600px) {
+      body{
+          background-color: #f3f1ff;
+      }
+  }
+  .menu-container{
+      flex-direction: column;
+  }
