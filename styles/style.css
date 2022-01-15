@@ -63,10 +63,19 @@ hr{
     margin-top: 20px;
 }
 /* another part styles  */
-.photos-add{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+.section-title{
+    text-align: center;
 }
+  .photos-add{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+  }  
+  .photos{
+      border: 1px solid gray;
+      padding: 20px;
+      margin-bottom: 20px;
+      margin-right: 20px;
+  }
 span{
     margin-left: 10px;
     color: gray;
